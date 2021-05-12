@@ -27,44 +27,53 @@
             <h1 id="welcome">welcome</h1>
         </center>
     </div>
-    <div class="donate">
-        <h1>Enter the recipient details</h1>
-        <!-- <form> -->
-        <div class="block">
-            <label for="state1">State :</label>
-            <pre style="display: inline-block;">        </pre>
-            <input type="text" id="state1" name="State" placeholder="Enter State"><br><br>
-            <label for="district1">District :</label>
-            <pre style="display: inline-block;">      </pre>
-            <input type="text" id="district1" name="District" placeholder="Enter District"><br><br>
-            <label for="pincode1">Pincode:</label>
-            <pre style="display: inline-block;">      </pre>
-            <input type="text" id="pincode1"placeholder="Enter PINCODE"><br><br>
-            <label for="bg1">Choose your Blood Group :</label>
-            <select name="blood_group" id="bg1">
-                <option value="SelectBloodGroup">SelectBloodGroup</option>
-                <option value="A+">A+</option>
-                <option value="A-">A-</option>
-                <option value="B+">B+</option>
-                <option value="B-">B-</option>
-                <option value="O+">O+</option>
-                <option value="O-">O-</option>
-                <option value="AB+">AB+</option>
-                <option value="AB-">AB-</option>
-            </select><br><br>
-            <pre style="display: inline-block;">      </pre>
-            <button id="button1">SUBMIT</button>
-            <pre style="display: inline-block;">      </pre>
-            <input type="reset" class="button" value="RESET" "><br>
-        </div>  
-        <!-- </form>       -->
+    <div class="row">
+        <div class="col-4">
+
+        </div>
+        <div class="donate col-4">
+            <h1>Enter the recipient details</h1>
+            <!-- <form> -->
+            <div class="block">
+                <label for="state1">State :</label>
+                <pre style="display: inline-block;">        </pre>
+                <input type="text" id="state1" name="State" placeholder="Enter State"><br><br>
+                <label for="district1">District :</label>
+                <pre style="display: inline-block;">      </pre>
+                <input type="text" id="district1" name="District" placeholder="Enter District"><br><br>
+                <label for="pincode1">Pincode:</label>
+                <pre style="display: inline-block;">      </pre>
+                <input type="text" id="pincode1"placeholder="Enter PINCODE"><br><br>
+                <label for="bg1">Choose your Blood Group :</label>
+                <select name="blood_group" id="bg1">
+                    <option value="SelectBloodGroup">SelectBloodGroup</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select><br><br>
+                <pre style="display: inline-block;">      </pre>
+                <button id="button1">SUBMIT</button>
+                <pre style="display: inline-block;">      </pre>
+                <input type="reset" class="button" value="RESET" "><br>
+            </div>  
+            <!-- </form>       -->
+        </div>
+        <div class="col-4">
+
+        </div>
     </div>
     <div class="border">
 
     </div>
-    <div id="output">   
-        
+    <div class="row">
+        <div id="output" class="col-10"></div>
     </div>
+    
 </body>
 <script src="need.js"></script>
 <script src="scroll_to_TopButton.js"></script>
