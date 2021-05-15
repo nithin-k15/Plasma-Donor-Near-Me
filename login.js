@@ -6,7 +6,7 @@ firebase.auth().onAuthStateChanged(function(user) {
       {
         var email_id = user.email;
 
-        document.getElementById("welcome").innerHTML = 'WELCOME USER : '+email_id;
+        document.getElementById("welcome").innerHTML = 'WELCOME USER  : '+email_id;
       }
     } else {
       // No user is signed in.
